@@ -1,0 +1,18 @@
+@media only screen and (max-width: 540px) {
+    .welcome-div {
+        width: 95%;
+        height: 600px;
+    }
+    .welcome-div h1 {
+        font-size: 180%;
+        padding-bottom: 0px;
+        margin: 20px 0;
+    }
+    .welcome-div h2 {
+        font-size: 90%;
+        padding-bottom: 0px;
+    }
+    .social-icons {
+        padding-top: 5px;
+    }
+}
