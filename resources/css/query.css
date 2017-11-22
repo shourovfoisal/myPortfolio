@@ -1,4 +1,7 @@
 @media only screen and (max-width: 540px) {
+    header {
+      height: 800px;
+    }
     .welcome-div {
         width: 95%;
         height: 600px;
