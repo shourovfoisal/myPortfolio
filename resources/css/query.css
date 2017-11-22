@@ -1,25 +1,26 @@
 @media only screen and (max-width: 540px) {
-    header {
-      height: auto;
-    }
-    .welcome-div {
-        width: 95%;
-        height: 650px;
-        top: 0;
-        left: 0;
-    }
-    .welcome-div h1 {
-        font-size: 180%;
-        padding-bottom: 0px;
-        margin: 20px 0;
-    }
-    .welcome-div h2 {
-        font-size: 90%;
-        padding-bottom: 0px;
-    }
-    .social-icons {
-        padding-top: 5px;
-        padding-bottom: 20px;
-        bottom: 0;
-    }
+  header {
+    min-height: 800px;
+  }
+  .welcome-div {
+      width: 95%;
+      height: 650px;
+      top: 0;
+      left: 0;
+      transform: translate(2.5%,10%);
+  }
+  .welcome-div h1 {
+      font-size: 180%;
+      padding-bottom: 0px;
+      margin: 20px 0;
+  }
+  .welcome-div h2 {
+      font-size: 90%;
+      padding-bottom: 0px;
+  }
+  .social-icons {
+      padding-top: 5px;
+      padding-bottom: 20px;
+      bottom: 0;
+  }
 }
