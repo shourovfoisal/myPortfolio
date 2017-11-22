@@ -26,6 +26,7 @@ header {
     height: 100vh;
     background-position: center;
     background-size: cover;
+    position: relative;
 }
 
 .welcome-div {
@@ -42,7 +43,7 @@ header {
         fourth value: the shadow color
     */
     border-radius: 15px;
-    
+
     /* To align horizontally and vertically */
     position: absolute;
     left: 50%;
@@ -106,7 +107,7 @@ h1, h2 {
 	border-radius: 50%;
 	font-size: 25px;
 	background: #fff;
-	
+
 	z-index: 1;
 }
 
@@ -133,10 +134,10 @@ h1, h2 {
 	border-radius: 50%;
 	background: #ff003b; /* Same as the body color */
 	/* To fill the whole space of li */
-	
-	
+
+
 	z-index: -1;
-	
+
 	transform: scale(0);
 	transition: 0.5s ease-in-out; /* Ease in out is an animation effect with slow start and slow end */
 }
